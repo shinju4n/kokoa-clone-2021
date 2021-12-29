@@ -1,4 +1,4 @@
-.alt-heeader {
+.alt-header {
   padding: 25px;
   margin: 15px 0;
   display: flex;
@@ -15,4 +15,17 @@
 }
 .alt-header__coulmn:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__coulmn:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__coulmn span:last-child {
+  margin-left: 15px;
+}
+
+.alt-header__coulmn {
+  width: 33%;
 }
