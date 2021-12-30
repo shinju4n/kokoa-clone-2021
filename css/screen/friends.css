@@ -27,3 +27,26 @@
   justify-content: space-between;
   color: var(--gray);
 }
+@keyframes hidesplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 132px;
+  animation: hidesplashscreen 0.5s ease-in-out forwards;
+  animation-delay: 2s;
+}
