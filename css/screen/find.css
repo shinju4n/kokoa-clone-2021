@@ -117,3 +117,7 @@
   will-change: transform;
   animation: heartbeat 1s linear infinite;
 }
+
+.main-screen {
+  position: fixed;
+}
